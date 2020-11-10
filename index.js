@@ -12,6 +12,5 @@ const form = document.getElementById("myForm")
 
 form.addEventListener("submit", function(e) {
     e.preventDefault()
-    console.log("email: ", email.value)
 })
 

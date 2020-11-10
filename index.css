@@ -49,16 +49,25 @@ button {
    color: white;
    margin: auto;
    display: block;
-   background: #3d492b;
+   background-color: #3d492b;
    font-size: 15px;
    padding: 5px;
+   -webkit-transition: background-color .5s ease;
+   -moz-transition: background-color .5s ease;
+   -o-transition: background-color .5s ease;
+   transition: background-color .5s ease;
 }
 
 button:hover {
-   font-size: 20px;
+   background: rgb(126, 126, 126);
 }
 
 button:active {
-   color: red;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+}
+
+input:focus, button:focus{
+   outline: none;
 }
 
