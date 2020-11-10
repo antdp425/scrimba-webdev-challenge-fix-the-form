@@ -25,6 +25,13 @@ body {
    justify-content: center;
 }
 
+small{
+   display: none;
+   margin-top: 0;
+   padding-bottom: 5px;
+   color: lightpink;
+}
+
 form {
    width: 50vw;
    text-align: center;
