@@ -17,29 +17,41 @@ CSS pseudo selectors (:active, :hover), transform
 
 
 body {
+   color: lightgoldenrodyellow;
    margin: 0;
-   background: #ac8d0b;
+   background: #006ac0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 form {
+   width: 50vw;
+   text-align: center;
+   padding: 0px 20px;
 }
 
 h3 {
-   color: green;
-   margin-top: 20px;
    margin-bottom: 0;
 }
 
 input {
-   border-radius: 20px;
-   width: 200px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 40px;
+   text-align: center;
 }
 
 button {
+   height: 40px;
+   width: 100%;
+   color: white;
+   margin: auto;
    display: block;
-   border-radius: 2px;
    background: #3d492b;
    font-size: 15px;
+   padding: 5px;
 }
 
 button:hover {
